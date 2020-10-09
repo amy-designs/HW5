@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Montserrat, Helvetica, sans-serif;
+  }
+ 
+  .header {
+    overflow: hidden;
+    background-color: purple;
+  }
+  
+  .header p {
+    float: left;
+    text-align: center;
+    padding: 12px 12px 12px;
+    margin: -7px 8px;
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    
+  }
+  
+  .header-right {
+    float: right;
+    display:inline;
+
+  }
+
+  .header-center {
+        list-style:none;
+        margin:10;
+        padding-left:15%;
+        text-align: right;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+    }
+  
+  #storeicon {
+    width: 16%;
+    padding-right: 2px;
+  }
+
+  #supporticon {
+    width: 20%;
+    padding-right: 2px;
+    display: inline;
+  }
+
+  #carticon {
+    width: 60%;
+    height: auto;
+    display: inline;
+  }
+
+
+  .topnav {
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  .topnav a {
+    float: left;
+    text-align: left;
+    padding: 5px 5px;
+    margin: 12px 0px 10px;
+    text-decoration: none;
+    font-size: 12px;
+    color: gray;
+  }
+
+  #logo {
+      width: 70%;
+      height: auto;
+      padding-left: 17px;
+
+  }
+  
+  .topnav-right {
+    float: right;
+    display:inline;
+  }
+
+  .topnav-center {
+        list-style:none;
+        display: flex;
+        justify-content: center;
+    }
+  .topnav-center a{
+
+    padding-right:5%;
+  }
+
+  #headerimage {
+    width: 100%;
+    height: auto;
+  }
+  }

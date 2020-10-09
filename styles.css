@@ -1,0 +1,21 @@
+.topnav {
+    position: relative;
+  }
+
+
+.topnav-centered {
+    margin:auto;
+    width: 80%; 
+    display:table;
+    padding:0;
+    text-align:center;
+}
+.topnav- li
+{
+    display: table-cell;
+}
+
+.topnav-right {
+    float: right;
+  }
+
