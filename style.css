@@ -286,3 +286,17 @@ h4 {
   margin-left: 10%;
   margin-right: 10%;
 }
+
+/* -----------BASKET------------- */
+.baskethead {
+  background-image: url("Line\ Header\ \(1\).svg");
+  padding-top: 2%;
+  padding-bottom: 8%;
+  padding-left:2%;
+  padding-right:2%;
+}
+
+.baskethead h3 {
+  display: flex;
+  justify-content: center;
+}
