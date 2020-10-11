@@ -3,6 +3,7 @@ body {
     font-family: Montserrat, Helvetica, sans-serif;
   }
  
+  /* --------Header Bar---------- */
   .header {
     overflow: hidden;
     background-color: purple;
@@ -28,7 +29,7 @@ body {
   .header-center {
         list-style:none;
         margin:10;
-        padding-left:15%;
+        padding-left:16%;
         text-align: right;
         font-size: 12px;
         display: flex;
@@ -52,7 +53,7 @@ body {
     display: inline;
   }
 
-
+/* -------------Navbar------------ */
   .topnav {
     overflow: hidden;
     background-color: white;
@@ -90,8 +91,110 @@ body {
     padding-right:5%;
   }
 
+/* -----------Header Image ------------- */
   #headerimage {
     width: 100%;
     height: auto;
   }
-  }
+  
+
+/* ------------Bestsellers------------ */
+#bestsellers {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  color: purple;
+  font-size: 28px
+}
+
+#featured {
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  padding-left: 5%;
+  padding-right: 5%;
+  height: auto;
+}
+
+#featured a {
+  padding-left: 4%;
+  width:80%
+}
+
+/* ------------Materials------------ */
+#materials {
+  display: flex;
+  justify-content: center;
+  padding-top: 12%;
+  padding-bottom: 1%;
+  color: purple;
+  font-size: 28px
+}
+
+#samples {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  padding-left: 3.5%;
+  padding-right: 5%;
+}
+
+#samples img {
+  padding-left: 4%;
+  width: 80%;
+  height: auto;
+}
+
+/* ----------------Reviews---------- */
+
+#customerreviews {
+  display: flex;
+  justify-content: center;
+  padding-top: 12%;
+  color: purple;
+  font-size: 28px
+}
+
+#stars {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+#reviews {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  padding-left: 3.5%;
+  padding-right: 5%;
+}
+
+#reviews img {
+  padding-left: 4%;
+  width: 70%;
+  height: auto;
+}
+
+#loadmore {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+/* -------Footer-------- */
+
+.footer {
+  overflow: hidden;
+  background-color: purple;
+  padding-top: 4%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-botton: 10%;
+  color: white;
+}
+
+.footer p {
+  font-size: 14px;
+  padding-top: 0.5%;
+}
