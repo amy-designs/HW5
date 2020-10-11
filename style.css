@@ -103,6 +103,9 @@ body {
 
 /* -------Footer-------- */
 
+.footer h4 {
+  color: white;
+}
 .footer {
   overflow: hidden;
   background-color: purple;
@@ -299,4 +302,64 @@ h4 {
 .baskethead h3 {
   display: flex;
   justify-content: center;
+}
+
+.basketbody {
+  padding-bottom: 40%;
+  margin-top: 5%;
+  margin-left: 3%;
+  margin-right: 3%;
+
+}
+
+.basket-right {
+  float: right;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.image2 {
+  position: absolute;
+  top: 250px;
+  left: 40px;
+}
+
+/* -----------CHECKOUT------------- */
+
+.checkoutinfo {
+  padding-bottom: 40%;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+.checkout-right {
+  float: right;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.imageA {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.imageB {
+  position: absolute;
+  top: 250px;
+  left: 40px;
+}
+
+#addcard {
+  padding-left: 1%;
 }
