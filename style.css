@@ -223,7 +223,7 @@ body {
 }
 
 /*------------COUCH-----------*/
-.topcouch {
+.topcouch img {
   width: 100%;
   height: auto;
 }
@@ -231,4 +231,22 @@ body {
 .filters {
   margin: 10px;
   padding-left: 20px;
+}
+.couchimages {
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+}
+
+.shopcouch {
+  display: flex;
+  justify-content: center;
+  padding-left: 6%;
+  padding-bottom: 30%;
+}
+
+.shopcouch img {
+  padding-right: 4%;
+  padding-top: 20px;
+  width: 23%;
 }
