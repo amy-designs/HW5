@@ -293,6 +293,7 @@ h4 {
 /* -----------BASKET------------- */
 .baskethead {
   background-image: url("Line\ Header\ \(1\).svg");
+  background-size: 100%;
   padding-top: 2%;
   padding-bottom: 8%;
   padding-left:2%;
@@ -362,4 +363,32 @@ h4 {
 
 #addcard {
   padding-left: 1%;
+}
+
+/* ------------ORDER CONFIRMATION----------- */
+.orderhead {
+  background-image: url("Line\ Header\ \(1\).svg");
+  background-size: 100%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  padding-left:2%;
+  padding-right:2%;
+}
+
+.orderhead h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.orderbody {
+  padding-top: 5%;
+  padding-bottom: 15%;
+  display: flex;
+  justify-content: center;
+}
+
+.continue {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30%;
 }
