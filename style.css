@@ -193,6 +193,14 @@ h4 {
   height: auto;
 }
 
+#labels img {
+  float: center;
+  width: 71%;
+  height: auto;
+  margin-left:13%;
+  margin-right: 12%;
+}
+
 /* ----------------HOME Reviews---------- */
 
 #customerreviews {
