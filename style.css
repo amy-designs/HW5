@@ -172,6 +172,7 @@ h4 {
 }
 
 /* ------------HOME Materials------------ */
+
 #materials {
   display: flex;
   justify-content: center;
@@ -179,27 +180,63 @@ h4 {
   padding-bottom: 1%;
 }
 
-#samples {
-  display: flex;
-  justify-content: center;
-  width: 90%;
-  padding-left: 5%;
-  padding-right: 5%;
+.material-samples {
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
-#samples img {
-  padding-left: 4%;
-  width: 80%;
-  height: auto;
+.label1 {
+  color: purple;
+  position: absolute;
+  bottom: 100px;
+  left: 177px;
+  font-size: 18pt;
 }
 
-#labels img {
-  float: center;
-  width: 71%;
-  height: auto;
-  margin-left:15%;
-  margin-right: 12%;
+.label2 {
+  color: purple;
+  position: absolute;
+  bottom: 100px;
+  left: 510px;
+  font-size: 18pt;
 }
+
+.label3 {
+  color: purple;
+  position: absolute;
+  bottom: 100px;
+  left: 980px;
+  font-size: 18pt;
+}
+
+.firmness {
+  position: absolute;
+  bottom: 70px;
+  left:90px;
+}
+
+.des1 {
+  color: gray;
+  position: absolute;
+  bottom: 0px;
+  left: 105px;
+}
+
+.des2 {
+  color: gray;
+  position: absolute;
+  bottom: 0px;
+  left: 504px;
+}
+
+.des3 {
+  color: gray;
+  position: absolute;
+  bottom: 0px;
+  left: 904px;
+}
+
 
 /* ----------------HOME Reviews---------- */
 
