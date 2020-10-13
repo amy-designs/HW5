@@ -183,7 +183,7 @@ h4 {
   display: flex;
   justify-content: center;
   width: 90%;
-  padding-left: 3.5%;
+  padding-left: 5%;
   padding-right: 5%;
 }
 
@@ -197,7 +197,7 @@ h4 {
   float: center;
   width: 71%;
   height: auto;
-  margin-left:13%;
+  margin-left:15%;
   margin-right: 12%;
 }
 
