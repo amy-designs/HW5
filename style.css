@@ -179,7 +179,10 @@ h4 {
   padding-top: 12%;
   padding-bottom: 1%;
 }
-
+.material-container {
+  width: 1150px;
+  height:auto;
+}
 .material-samples {
   position: relative;
   text-align: center;
@@ -190,7 +193,7 @@ h4 {
   color: purple;
   position: absolute;
   bottom: 100px;
-  left: 177px;
+  left: 250px;
   font-size: 18pt;
 }
 
@@ -198,7 +201,8 @@ h4 {
   color: purple;
   position: absolute;
   bottom: 100px;
-  left: 510px;
+  right: 558px;
+  margin-left: 50px;
   font-size: 18pt;
 }
 
@@ -206,35 +210,35 @@ h4 {
   color: purple;
   position: absolute;
   bottom: 100px;
-  left: 980px;
+  right: 245px;
   font-size: 18pt;
 }
 
-.firmness {
+.firm {
   position: absolute;
   bottom: 70px;
-  left:90px;
+  left: 160px;
 }
 
 .des1 {
   color: gray;
   position: absolute;
   bottom: 0px;
-  left: 105px;
+  left: 180px;
 }
 
 .des2 {
   color: gray;
   position: absolute;
   bottom: 0px;
-  left: 504px;
+  left: 570px;
 }
 
 .des3 {
   color: gray;
   position: absolute;
   bottom: 0px;
-  left: 904px;
+  left: 972px;
 }
 
 
@@ -243,27 +247,139 @@ h4 {
 #customerreviews {
   display: flex;
   justify-content: center;
-  padding-top: 12%;
+  padding-top: 9%;
 }
 
-#stars {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 5%;
-}
-
-#reviews {
+#customerreviews1 {
   display: flex;
   justify-content: center;
-  width: 90%;
-  padding-left: 3.5%;
-  padding-right: 5%;
+  padding-top: 2%;
 }
 
-#reviews img {
-  padding-left: 4%;
-  width: 70%;
-  height: auto;
+.stars {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4%;
+}
+
+.review-group {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding-bottom: 26%;
+}
+.review-container {
+  position: absolute;
+  left:190px;
+  width: 1150px;
+  height:auto;
+}
+.title1 {
+  color: purple;
+  position: absolute;
+  top: 15px;
+  left: 230px;
+  font-size: 15pt;
+  font-weight: 600;
+  text-align: left;
+}
+
+.title2 {
+  color: purple;
+  position: absolute;
+  top: 15px;
+  left: 627px;
+  font-size: 15pt;
+  font-weight: 600;
+  text-align: left;
+}
+
+.title3 {
+  color: purple;
+  position: absolute;
+  top: 15px;
+  left: 1026px;
+  font-size: 15pt;
+  font-weight: 600;
+  text-align: left;
+}
+
+.star1 {
+  position: absolute;
+  top: 95px;
+  left: 228px;
+}
+
+.star2 {
+  position: absolute;
+  top: 95px;
+  left: 627px;
+}
+
+.star3 {
+  position: absolute;
+  top: 95px;
+  left: 1026px;
+}
+
+.rev1 {
+  position: absolute;
+  top: 135px;
+  left: 229px;
+  color: gray;
+  text-align: left;
+  font-size: 11.5pt;
+  line-height: 1.6;
+}
+
+.rev2 {
+  position: absolute;
+  top: 135px;
+  left: 629px;
+  color: gray;
+  text-align: left;
+  font-size: 11.5pt;
+  line-height: 1.6;
+}
+
+.rev3 {
+  position: absolute;
+  top: 135px;
+  left: 1029px;
+  color: gray;
+  text-align: left;
+  font-size: 11.5pt;
+  line-height: 1.6;
+}
+
+.person1 {
+  position: absolute;
+  bottom: 28px;
+  left: 268px;
+  color:purple;
+  text-align: left;
+  font-size: 11.5pt;
+  font-weight: 600;
+}
+
+.person2 {
+  position: absolute;
+  bottom: 28px;
+  left: 661px;
+  color:purple;
+  text-align: left;
+  font-size: 11.5pt;
+  font-weight: 600;
+}
+
+.person3 {
+  position: absolute;
+  bottom: 28px;
+  left: 1058px;
+  color:purple;
+  text-align: left;
+  font-size: 11.5pt;
+  font-weight: 600;
 }
 
 #loadmore {
@@ -291,7 +407,7 @@ h4 {
 
 .top-left {
   position: absolute;
-  top: 130px;
+  top: 80px;
   left: 100px;
   font-size: 24pt;
 
