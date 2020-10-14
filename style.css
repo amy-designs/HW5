@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 0px;
     font-family: Montserrat, Helvetica, sans-serif;
   }
  
@@ -35,7 +35,7 @@ body {
 
   .header-center {
         list-style:none;
-        margin:10;
+        margin:1px;
         padding-left:16%;
         text-align: right;
         font-size: 12px;
@@ -112,7 +112,7 @@ body {
   padding-top: 4%;
   padding-left: 5%;
   padding-right: 5%;
-  padding-botton: 10%;
+  padding-bottom: 3px;
   color: white;
 }
 
@@ -179,21 +179,24 @@ h4 {
   padding-top: 12%;
   padding-bottom: 1%;
 }
-.material-container {
-  width: 1150px;
-  height:auto;
-}
+
 .material-samples {
   position: relative;
   text-align: center;
   color: white;
 }
 
+.material-images {
+  position: absolute;
+  top:0px;
+  left: 204px;
+}
+
 .label1 {
   color: purple;
   position: absolute;
   bottom: 100px;
-  left: 250px;
+  left: 295px;
   font-size: 18pt;
 }
 
@@ -201,8 +204,7 @@ h4 {
   color: purple;
   position: absolute;
   bottom: 100px;
-  right: 558px;
-  margin-left: 50px;
+  left: 627px;
   font-size: 18pt;
 }
 
@@ -210,35 +212,39 @@ h4 {
   color: purple;
   position: absolute;
   bottom: 100px;
-  right: 245px;
+  left: 1110px;
   font-size: 18pt;
 }
 
 .firm {
   position: absolute;
   bottom: 70px;
-  left: 160px;
+  left: 207px;
 }
 
 .des1 {
   color: gray;
   position: absolute;
   bottom: 0px;
-  left: 180px;
+  left: 220px;
+  line-height: 1.5;
+  min-width: 180px;
 }
 
 .des2 {
   color: gray;
   position: absolute;
   bottom: 0px;
-  left: 570px;
+  left: 620px;
+  line-height: 1.5;
 }
 
 .des3 {
   color: gray;
   position: absolute;
   bottom: 0px;
-  left: 972px;
+  left: 1020px;
+  line-height: 1.5;
 }
 
 
@@ -253,7 +259,7 @@ h4 {
 #customerreviews1 {
   display: flex;
   justify-content: center;
-  padding-top: 2%;
+  padding-top: 50px;
 }
 
 .stars {
@@ -354,7 +360,7 @@ h4 {
 
 .person1 {
   position: absolute;
-  bottom: 28px;
+  top: 294px;
   left: 268px;
   color:purple;
   text-align: left;
@@ -364,7 +370,7 @@ h4 {
 
 .person2 {
   position: absolute;
-  bottom: 28px;
+  top: 294px;
   left: 661px;
   color:purple;
   text-align: left;
@@ -374,7 +380,7 @@ h4 {
 
 .person3 {
   position: absolute;
-  bottom: 28px;
+  top: 294px;
   left: 1058px;
   color:purple;
   text-align: left;
@@ -398,16 +404,15 @@ h4 {
 
 .bottom-left {
   position: absolute;
-  bottom: 90px;
+  bottom: 109px;
   left: 100px;
   text-align: left;
   line-height: 1.7;
-  font-size: 16;
 }
 
 .top-left {
   position: absolute;
-  top: 80px;
+  top: 110px;
   left: 100px;
   font-size: 24pt;
 
